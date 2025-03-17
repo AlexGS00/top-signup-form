@@ -20,11 +20,6 @@ body{
     background-image: url("img/plant.avif");
 }
 
-.form-container{
-    width: 65vw;
-    min-height: 100vh;
-}
-
 .logo-container{
     margin-top: 20vh ;
     display: flex;
@@ -48,4 +43,28 @@ img{
     color: white;
     font-size: 200px;
     font-family: Norse;
+}
+
+.form-container{
+    width: 65vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta{
+    padding-left: 80px;
+    width: 1100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.input-section{
+    display: flex;
+    gap: 30px;
+}
+
+label {
+    display: block;
 }
