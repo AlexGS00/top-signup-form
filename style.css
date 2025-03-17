@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Norse;
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.photo-container{
+    width: 30vw;
+    min-height: 100vh;
+}
+
+.form-container{
+    width: 70vw;
+    min-height: 100vh;
+}
