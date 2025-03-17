@@ -17,6 +17,7 @@ body{
 .photo-container{
     width: 30vw;
     min-height: 100vh;
+    background-image: url("img/plant.avif");
 }
 
 .form-container{
