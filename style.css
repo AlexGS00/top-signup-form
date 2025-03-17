@@ -24,3 +24,28 @@ body{
     width: 70vw;
     min-height: 100vh;
 }
+
+.logo-container{
+    margin-top: 20vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: rgba(34, 34, 34, 0.7);
+}
+
+img{
+    display: inline;
+    margin: 40px 0px;
+    padding: 0px;
+    height: 280px;
+}
+
+.logo-container h1{
+    display:inline;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 200px;
+    font-family: Norse;
+}
