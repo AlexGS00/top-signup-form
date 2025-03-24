@@ -86,7 +86,7 @@ label {
 }
 
 input{
-    border: 2px solid rgb(155, 155, 155) ;
+    border: 2px solid #E5E7EB ;
     border-radius: 6px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -101,4 +101,18 @@ input:invalid{
 
 input:focus{
     outline-color: rgb(32, 32, 187);
+}
+
+button{
+    box-sizing: border-box;
+    margin: 40px var(--left-padding) ;
+    width: 350px ;
+    height: 70px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    background-color: #586b46 ;
+    color: rgb(245, 249, 253);
+    font-size: 32px;
+    font-weight: bold;
 }
