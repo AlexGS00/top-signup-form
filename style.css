@@ -3,6 +3,10 @@
     src: url("Norse-Bold.otf") format("opentype");
 }
 
+:root{
+    --left-padding: 80px
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -54,8 +58,11 @@ img{
 }
 
 .cta{
-    padding-left: 80px;
+    padding-left: var(--left-padding);
     width: 1100px;
+}
+
+h3, .cta{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
     font-size: 34px;
@@ -63,13 +70,35 @@ img{
 
 form{
     background-color: white;
+    padding-left: var(--left-padding);
 }
 
 .input-section{
     display: flex;
-    gap: 30px;
+    gap: 60px;
 }
 
 label {
     display: block;
+    color: rgb(49, 49, 49);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+input{
+    border: 2px solid rgb(155, 155, 155) ;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px 8px;
+    margin-bottom: 16px;
+    width: 320px;
+}
+
+input:invalid{
+    border: 2px solid rgb(224, 0, 0);
+}
+
+input:focus{
+    outline-color: rgb(32, 32, 187);
 }
